@@ -386,7 +386,8 @@ void print_help() {
     printf(
 "\nHelp Usage\n"
 "usage:  get_lsi_temp -p portNumber\n"
-"      -p portNumber     Specify the port number to operate on.\n");
+"      -p portNumber     Specify the port number to operate on.\n"
+"      -u                Get the temperature unit for the specified controller.\n");
 }
 
 int
